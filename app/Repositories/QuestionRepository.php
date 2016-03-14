@@ -1,5 +1,6 @@
 <?php  namespace App\Repositories;
 
+use App\Question;
 use Illuminate\Support\Facades\Cache;
 
 class QuestionRepository {
