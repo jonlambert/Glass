@@ -1,6 +1,7 @@
 @servers(['web' => 'root@schoolsbroadcast.org.uk'])
 
 @task('deploy')
-    cd /path/to/site
+    cd /opt/glass
     git pull origin master
+    composer install
 @endtask
