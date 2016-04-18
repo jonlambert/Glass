@@ -26,10 +26,7 @@ class QuestionController extends Controller {
 
 	public function recent()
 	{
-//		dd(Question::first()->school);
-//		dd(School::find(1190));
 		return $this->response->collection($this->questions->recent(), new QuestionTransformer);
-//		dd(DB::connection()->getQueryLog());
 	}
 
 } 

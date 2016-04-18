@@ -8,7 +8,6 @@ class SchoolTransformer extends TransformerAbstract {
 	public function transform(School $school)
 	{
 		$item = [
-//			'id'    => (int) $school->id,
 			'name'  => $school->school_name
 		];
 
